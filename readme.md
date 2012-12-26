@@ -4,6 +4,7 @@ Additional features including an API key for all requests, remove format extensi
 
 ## Example config/sites.yml
 
+```yaml
 development:
   site: "localhost:8080"
   prefix: "/path/to/api/"
@@ -15,6 +16,7 @@ production:
   prefix: "/path/to/api/"
   format: :xml
   api_key: "12345678"
+```
 
 ## Installation
 
