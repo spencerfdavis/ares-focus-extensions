@@ -20,4 +20,4 @@ production:
 
 ## Installation
 
-Step 1: Install this gem, `ares-focus-extensions`: either add it to your `Gemfile` and `bundle install`, or simply `gem install ares_focus_extensions`
+Step 1: Install this gem, `ares-focus-extensions`: either add it to your `Gemfile` and `bundle install`, or simply `gem install ares-focus-extensions`

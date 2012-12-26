@@ -1,3 +1,6 @@
 v0.0.1
   -- Base creation.
-
+v0.0.2
+  -- Small fixes to readme and description.
+v0.0.3
+  -- Added ability for custom get/put/post/delete methods

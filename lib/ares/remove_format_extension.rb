@@ -5,12 +5,18 @@ module ActiveResource
         def element_path_with_extension(*args)
           element_path_without_extension(*args).gsub(/.json|.xml/,'')
         end
+        
         def new_element_path_with_extension(*args)
           new_element_path_without_extension(*args).gsub(/.json|.xml/,'')
         end
+        
         def collection_path_with_extension(*args)
           collection_path_without_extension(*args).gsub(/.json|.xml/,'')
         end
+        
+        def custom_method_collection_url_with_extension(*args)
+          custom_method_collection_url_without_extension(*args).gsub(/.json|.xml/,'')
+        end        
       end
 
       def self.included(base)
@@ -20,6 +26,7 @@ module ActiveResource
             alias_method_chain :element_path, :extension
             alias_method_chain :new_element_path, :extension
             alias_method_chain :collection_path, :extension
+            alias_method_chain :custom_method_collection_url, :extension
           end
         end
       end  
