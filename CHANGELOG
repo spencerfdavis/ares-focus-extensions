@@ -4,3 +4,5 @@ v0.0.2
   -- Small fixes to readme and description.
 v0.0.3
   -- Added ability for custom get/put/post/delete methods
+v0.0.4
+  -- Added API-key to header.  Sends API Key if it is defined in sites.yml or in Object. 
